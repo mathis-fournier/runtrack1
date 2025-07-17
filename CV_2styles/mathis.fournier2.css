@@ -1,0 +1,102 @@
+*{
+      font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace !important; 
+}
+
+.mail{
+    color: rgb(140, 182, 210);
+    text-decoration:wavy;
+}
+
+
+.subtitle{
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 30px;
+    line-height: 0%;
+    
+}
+
+.hr{
+    line-height: 0%;
+    border: none;
+    height: 4px;
+    background-color: white;
+    width: 100%;
+    
+}
+
+
+.infos{
+    text-align: left;
+}
+
+.textes{
+    column-count: 1;
+}
+body
+{
+    text-align:center;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background-color: rgb(31, 28, 28);
+    color: white;
+}
+
+h1 
+{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20%;
+    margin-bottom: 30px;
+}
+
+
+h2 
+{
+    line-height: 70%;
+
+}
+
+h4 
+{
+    color: tan;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 20px;
+    line-height: 100%;
+
+}
+
+
+.retour
+{
+    border-style:solid;
+    border-radius: 14%;
+    border-color: gray;
+    background-color: white;
+    color: black;
+    width: 90px;
+
+}
+
+
+div
+{
+    padding-left: 25px;
+
+}
+
+@media screen and (max-width: 640px) { 
+    .subtitle{
+        font-size: 15px;
+    }
+    #titre 
+    {
+        font-size: 22px;
+    }
+
+}
