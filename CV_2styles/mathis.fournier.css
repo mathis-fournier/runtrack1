@@ -1,99 +1,53 @@
-*{
-      font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+/* Style de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.mail{
-    color: rgb(35, 83, 118);
-    text-decoration: none;
-}
-
-
-.subtitle{
-        font-weight: 600;
-        letter-spacing: 0.4px;
-    font-size: 30px;
-    line-height: 0%;
-    
-}
-
-.hr{
-    line-height: 0%;
-    border: none;
-    height: 4px;
-    background-color: rgb(87, 77, 77);
-    width: 100%;
-    
-}
-
-
-body
-{
+.header {
+    background-color: #2B3940;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 20px;
     text-align: center;
-font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    background-color: rgb(190, 172, 172);
-    color: rgb(25, 23, 23);
+}
+
+.left,.left2, .center {
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Layout de bureau */
+.left {
+
+    width: 25%;
+    background-color: #2B3940;
+    color: azure;
+}
+
+.center {
+    width: 75%;
+         
 }
 
 
-
-h1,h3{
-    font-family: "Economica", sans-serif;
+.footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-h1 
-{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 20%;
-    margin-bottom: 30px;
-}
-
-
-h2 
-{
-    line-height: 70%;
-
-}
-
-h4 
-{
-    color: tan;
-    font-style: italic;
-    font-variant: small-caps;
-    font-size: 20px;
-    line-height: 100%;
-
-}
-
-
-button
-{
-    border-style:solid;
-    border-radius: 14%;
-    border-color: gray;
-    background-color: white;
-    color: black;
-
-}
-
-
-div
-{
-    padding-left: 25px;
-
-}
-
-@media screen and (max-width: 640px) { 
-    .subtitle{
-        font-size: 22px;
+@media (max-width: 768px) {
+    .left, .center {
+        width: 100%;
+        float: none;
+        padding: 15px;
     }
-    h1 
-    {
-        font-size: 32px;
+
+    .header, .footer {
+        text-align: center;
     }
 }

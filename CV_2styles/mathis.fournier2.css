@@ -1,102 +1,59 @@
-*{
-      font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace !important; 
+/* Style de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.mail{
-    color: rgb(140, 182, 210);
-    text-decoration:wavy;
-}
-
-
-.subtitle{
-    font-weight: 600;
-    letter-spacing: 0.4px;
-    font-size: 30px;
-    line-height: 0%;
-    
-}
-
-.hr{
-    line-height: 0%;
-    border: none;
-    height: 4px;
-    background-color: white;
-    width: 100%;
-    
-}
-
-
-.infos{
-    text-align: left;
-}
-
-.textes{
-    column-count: 1;
-}
-body
-{
-    text-align:center;
-
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    background-color: rgb(31, 28, 28);
+.header {
+    background-color: #333;
     color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-h1 
-{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 20%;
-    margin-bottom: 30px;
+.left,.left2, .center {
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-
-h2 
-{
-    line-height: 70%;
-
+/* Layout de bureau */
+.left {
+    clear: both;
+    width: 25%;
+    background-color: #f0f0f0;
+}
+.left2 {
+    clear: both;
+    width: 25%;
+    background-color: #f0f0f0;
+}
+.center {
+    width: 50%;
+    background-color: #fff;
 }
 
-h4 
-{
-    color: tan;
-    font-style: italic;
-    font-variant: small-caps;
-    font-size: 20px;
-    line-height: 100%;
-
+.right {
+    width: 25%;
+    background-color: #f0f0f0;
 }
 
-
-.retour
-{
-    border-style:solid;
-    border-radius: 14%;
-    border-color: gray;
-    background-color: white;
-    color: black;
-    width: 90px;
-
+.footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-
-div
-{
-    padding-left: 25px;
-
-}
-
-@media screen and (max-width: 640px) { 
-    .subtitle{
-        font-size: 15px;
-    }
-    #titre 
-    {
-        font-size: 22px;
+@media (max-width: 768px) {
+    .left,.left2, .center {
+        width: 100%;
+        float: none;
+        padding: 15px;
     }
 
+    .header, .footer {
+        text-align: center;
+    }
 }
