@@ -238,6 +238,12 @@ body {
     background-size: contain;
 }
 
+#contact {
+    background-color: #333333;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 32px;
+}
 
 /* media queries */
 @media screen and (max-width: 900px) {
