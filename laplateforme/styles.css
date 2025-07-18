@@ -102,6 +102,11 @@ body {
         width: 100%;
 }
 
+.form {
+    padding-top: 80px;
+    float: right;
+    width: 50%;
+}
 
 
 /* FOOTER */
@@ -210,6 +215,16 @@ body {
         flex: 1 1 45%;
         max-width: 45%;
     }
+
+    .placeholder-text {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -220,6 +235,8 @@ body {
 
     .placeholder-text {
         font-size: 0.95rem;
+        width: 100%;
+        padding-bottom: 20px;
     }
 
     .footer-column {
@@ -248,6 +265,12 @@ body {
 
     .imggrid {
         width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
     }
 }
 

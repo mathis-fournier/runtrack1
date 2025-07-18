@@ -1,49 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="la-plateforme.css" rel="stylesheet">
+    <title>LaPlateforme</title>
+    <link href="styles.css"" rel="stylesheet">
 </head>
-
-
-
 <body>
-        <a href="accueil.html"><img src="https://laplateforme.io/wp-content/uploads/2024/02/logo-laplateforme-2024.png" alt="logo" class="logo" style=width:30%;></a>
-
-
-<div class="containernav">
-    <div class="nav">
-        <nav>
-            <ul>
-                <li><a href="cyber.html">Cybersecurity</a></li>
-                <li><a href="codingschool.html">Coding</a></li>
-                <li><a href="digital.html">Digital</a></li>
-                <li><a href="ai-school.html">AI School</a></li>
-                
+    <header id="site-header">
+        <section>
+            <div id="logo">
+                <img src="https://laplateforme.io/wp-content/uploads/2024/02/logo-laplateforme-2024.png" style="max-width: 30%;" alt="logo">
+            </div>
+        </section>
+        <nav id="main-nav" class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                <li class="nav-item"><a href="a-propos.html" class="nav-link">À propos</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
         </nav>
-<hr><br>
-        
+    </header>
+    
+
+
+    <main id="main-content" class="content-container">
+        <div class="placeholder-text">
+            <h1 class="page-title">La grande école du numérique pour tous !</h1>
+            Des parcours de formations d'excellence en informatique aux frais de scolarité accessibles, ouverts à tous les talents, sans conditions de ressources et de diplômes. 
+            Un lieu de rencontre entre entreprises et apprenants pour le bénéfice de tous ! Le digital c'est maintenant !
+        </div>
+
+
+    <div class="form">
+        <form action="#">
+        <label for="fname">Nom :</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Prenom :</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="add">Adresse :</label>
+        <input type="text" id="add" name="add"><br><br>
+        <input type="submit" value="Submit">
+        </form>
     </div>
-</div>
-<div id="contact">
-<form>
-    <label for="nom">Nom :</label><br>
-    <input type="text" id="nom" name="nom" required><br><br>
 
-    <label for="email">Email :</label><br>
-    <input type="email" id="email" name="email" required><br><br>
 
-    <label for="sujet">Sujet :</label><br>
-    <input type="text" id="sujet" name="sujet"><br><br>
+    </main>
 
-    <label for="message">Message :</label><br>
-    <textarea id="message" name="message" rows="6" cols="40" required></textarea><br><br>
 
-    <button type="submit">Envoyer</button>
-  </form>
-</div>
+
+    <footer id="site-footer" class="footer">
+        <div class="footer-column" id="footer-col-1">
+            <img src="https://laplateforme.io/wp-content/uploads/2024/02/logo-laplateforme-2024.png" style="max-width: 100%;" alt="logo">
+            <button onclick="location.href='#'" id="img1"></button> <button onclick="location.href='#'" id="img2"></button> <button onclick="location.href='#'" id="img3"></button> <button onclick="location.href='#'" id="img4"></button> <button onclick="location.href='#'" id="img5"></button><br>
+            <button class="btnfooter"><span class="btnfootertext">rejoignez nos equipes</span></button> <br>
+            <button class="btnfooter"><span class="btnfootertext">telechargez la brochure</span></button>
+        </div>
+        <div class="footer-column" id="footer-col-2">
+            <h4 class="footer-title">La Plateforme</h4>
+            <a href="#" class="footer-btns">Accueil</a> <br>
+            <a href="qui-sommes-nous.html" class="footer-btns">Qui sommes nous ?</a> <br>
+            <a href="#" class="footer-btns">Notre brochure</a> <br>
+            <a href="#" class="footer-btns">Ils parlent de nous</a> <br>
+        </div>
+        <div class="footer-column" id="footer-col-3">
+            <h4 class="footer-title">Les Formations</h4>
+            <a href="#" class="footer-btns">Bachelor IT</a> <br>
+            <a href="#" class="footer-btns">Master Of Science</a> <br>
+            <a href="#" class="footer-btns">Innovation Lab</a> <br>
+            <a href="#" class="footer-btns">Cybersecurité</a> <br>
+        </div>
+        <div class="footer-column" id="footer-col-4">
+            <h4 class="footer-title">Informations</h4>
+            <p class="footer-text">8 rue d'hozier, 13002 Marseille <br> Tel : 04.84.89.43.69</p>
+
+        </div>
+    </footer>
+
 </body>
 </html>
