@@ -119,8 +119,8 @@ body {
 }
 
 .form {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     float: right;
     width: 50%;
 }
@@ -296,10 +296,6 @@ body {
 
     .content-container {
         padding: 0 10px;
-    }
-
-    .logo > img{
-        
     }
 
     /* grid qsn*/
