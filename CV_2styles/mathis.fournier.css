@@ -1,10 +1,10 @@
-/* Style de base */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-.header {
+.header {   
+
     background-color: #2B3940;
     border-bottom: 1px solid white;
     color: white;
@@ -16,15 +16,15 @@ body {
     float: left;
     padding: 20px;
     box-sizing: border-box;
+    min-height: 100%;
 }
 
-/* Layout de bureau */
 .left {
-
     width: 25%;
     background-color: #2B3940;
     color: azure;
 }
+
 
 .center {
     width: 75%;
