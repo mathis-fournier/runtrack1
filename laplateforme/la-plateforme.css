@@ -1,4 +1,4 @@
-html{
+/* html{
   background-color: rgb(31, 28, 28);
 }
 header{
@@ -19,7 +19,10 @@ a
 {
   color: inherit;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 #contact 
 {
   justify-content: center;
@@ -148,8 +151,6 @@ footer
   font-size: 16px;
   
 }
-
-
 .column
 {
 
@@ -264,16 +265,32 @@ justify-content: space-around;
 
 
 
+#containerfooter {
+ float: left;
 
+}
 
+.btnfooter {
+  width: 32px;
+}
 
+#top {
+  background-color: #0084FA;
+  text-align: center;
+  position:fixed;
+  width: 100%;
 
+}
+
+main {
+  padding-top: 100px;
+}
 
 
 
 @media (max-width: 700px)
 {
-
+  
   h1
   {
     font-size: 200%;
@@ -316,45 +333,53 @@ justify-content: space-around;
   width: 100%;
 }
 
-  li
-  {
-    float:inline-start;
-    
-    
-  }
+#top 
+{
+  display: none;
+}
+main {
+  padding-top: 0;
+}
 
-  ul
-  {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+.btnfooter {
+  width: 32px;
+}
+
+#containerfooter 
+{
+ float: left;
+  
+}
+
+li
+{
+  float:inline-start;
+}
+
+  
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 
-  nav{
-    display: inline-block;
-    padding-top: 10%;
-    font-size: 150%;
-  }
+nav
+{
+  display: inline-block;
+  padding-top: 8%;
+  font-size: 150%;
+}
 
-
-  .card
-  {
-    width: 90%;
-    height: auto;
-  }
-
-
-  .containerIA
+.containerIA
 {
   
-  display:flex;
-
-  height: auto;
-  position: absolute;
-  text-align: center;
-  color: white;
-  
+display:flex;
+height: auto;
+position: absolute;
+text-align: center;
+color: white;  
 }
 
 .titreIA
@@ -363,8 +388,6 @@ justify-content: space-around;
   position: absolute;
   left: 50%;
   font-size: 150%;
-  
-  
 }
 
 .soustitreIA
@@ -393,4 +416,5 @@ justify-content: space-around;
 
 }
 
+ */
 
