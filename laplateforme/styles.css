@@ -77,6 +77,33 @@ body {
 }
 
 
+/* QUI SOMMES NOUS MAIN */
+.placeholder-text-qsn {
+    column-count: 2;
+    background-color: white;
+    color: #333333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid > a {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.imggrid {
+        width: 100%;
+}
+
+
+
 /* FOOTER */
 .footer {
 
@@ -161,6 +188,8 @@ body {
     background-position: center;
     background-size: contain;
 }
+
+
 /* media queries */
 @media screen and (max-width: 900px) {
     .nav-list {
@@ -206,4 +235,19 @@ body {
     .content-container {
         padding: 0 10px;
     }
+
+
+
+    /* grid qsn*/
+
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    }
+
+    .imggrid {
+        width: 100%;
+    }
 }
+
