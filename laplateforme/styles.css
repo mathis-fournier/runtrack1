@@ -211,6 +211,10 @@ height: 50rem;;
     padding: 10px;
 }
 
+.dlbutton {
+    background-color: #E74A34;
+    color: white;
+}
 
 #img1 {
     width: 32px;
